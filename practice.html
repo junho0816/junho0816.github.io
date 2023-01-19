@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+
+<script  language="Javascript">
+    var goodURL  = "./practice.html"  
+        alert("준비중.")
+    
+    var password =  prompt("PASSWD 입력","")
+    
+        if (password == null)  {
+            alert("준비중..")
+            location  = "./index.html"       
+        }
+        else  {
+            var  combo =  password
+            var  total =  combo.toLowerCase()
+    
+        if  (total == "9646")  {               
+            location  =  goodURL
+        }
+        else  {
+            alert("준비중...")
+            location  = "./index.html"    
+        }
+    }
+    </script>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>MOOING</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+    <link href="./vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./practice.css" rel="stylesheet" type="text/css">
+
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <!-- <link href="css/animate.css" rel="stylesheet">
+    <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css" /> -->
+
+    <!-- THEME STYLES -->
+    <!-- <link href="css/layout.min.css" rel="stylesheet" type="text/css" /> -->
+
+    <!-- Favicon -->
+    <!-- <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5"> -->
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+</head>
+<body>
+    <header class="header navbar-fixed-top">
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                    </button>
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a class="logo-wrap" href="index.html">
+                            <img class="logo-img logo-img-main" src="img/logo-5.png" alt="Asentus Logo">
+                            <img class="logo-img logo-img-active" src="img/logo-5.png" alt="Asentus Logo">
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="navbar-nav navbar-nav-right">
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="">회사소개</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">제품소개</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">솔루션소개</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="http://smartstore.naver.com/mooing">제품구매</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">FAQ</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="">문의하기</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+        </nav>
+    </header>
+
+    <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="content-lg container">
+            <div class="row row-space-1 margin-b-2">
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-chemistry"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>입출고 시스템</h3>
+                                <p class="margin-b-5">매장에 입고되는 상품을 키오스크 스캐너로 등록하여 남은 상품 수량을 한눈에 볼 수 있어요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-notebook"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>매출관리 시스템</h3>
+                                <p class="margin-b-5">입/출고 시스템으로 재고관리 및 매입/매출 현황,주간 인기 상품 등을 알려드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-badge"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>통합관제 시스템</h3>
+                                <p class="margin-b-5">AI 카메라를 이용하여 사용자의 행동패턴을 분석하고 점포 내 실시간 관제 및 녹화가 가능해요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row row-space-1">
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-screen-tablet"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>모바일 솔루션</h3>
+                                <p class="margin-b-5">매장관리를 모바일로 편리하게 해보세요<br>중앙배포시스템과 매출데이터도 함께 제공해드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-speedometer"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>Data Cloud</h3>
+                                <p class="margin-b-5">Data에 기반한 정확하고 시장 맞춤형 무인매장 솔루션을 통해 다양한 분야에서 안정된 매장 시스템을 갖췄습니다</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-badge"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>소비자 편의성</h3>
+                                <p class="margin-b-5">점주님들 뿐만 아니라 고객님들의 편의성을 생각한 서비스도 제공해드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </div>
+    <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="content-lg container">
+            <div class="row row-space-1 margin-b-2">
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-chemistry"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>입출고 시스템</h3>
+                                <p class="margin-b-5">매장에 입고되는 상품을 키오스크 스캐너로 등록하여 남은 상품 수량을 한눈에 볼 수 있어요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-notebook"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>매출관리 시스템</h3>
+                                <p class="margin-b-5">입/출고 시스템으로 재고관리 및 매입/매출 현황,주간 인기 상품 등을 알려드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-badge"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>통합관제 시스템</h3>
+                                <p class="margin-b-5">AI 카메라를 이용하여 사용자의 행동패턴을 분석하고 점포 내 실시간 관제 및 녹화가 가능해요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row row-space-1">
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-screen-tablet"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>모바일 솔루션</h3>
+                                <p class="margin-b-5">매장관리를 모바일로 편리하게 해보세요<br>중앙배포시스템과 매출데이터도 함께 제공해드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-speedometer"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>Data Cloud</h3>
+                                <p class="margin-b-5">Data에 기반한 정확하고 시장 맞춤형 무인매장 솔루션을 통해 다양한 분야에서 안정된 매장 시스템을 갖췄습니다</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-badge"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>소비자 편의성</h3>
+                                <p class="margin-b-5">점주님들 뿐만 아니라 고객님들의 편의성을 생각한 서비스도 제공해드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </div>
+    <div class="bg-color-sky-light" data-auto-height="true">
+        <div class="content-lg container">
+            <div class="row row-space-1 margin-b-2">
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-chemistry"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>입출고 시스템</h3>
+                                <p class="margin-b-5">매장에 입고되는 상품을 키오스크 스캐너로 등록하여 남은 상품 수량을 한눈에 볼 수 있어요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-notebook"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>매출관리 시스템</h3>
+                                <p class="margin-b-5">입/출고 시스템으로 재고관리 및 매입/매출 현황,주간 인기 상품 등을 알려드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-badge"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>통합관제 시스템</h3>
+                                <p class="margin-b-5">AI 카메라를 이용하여 사용자의 행동패턴을 분석하고 점포 내 실시간 관제 및 녹화가 가능해요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+
+            <div class="row row-space-1">
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".4s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-screen-tablet"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>모바일 솔루션</h3>
+                                <p class="margin-b-5">매장관리를 모바일로 편리하게 해보세요<br>중앙배포시스템과 매출데이터도 함께 제공해드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 sm-margin-b-2">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".5s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-speedometer"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>Data Cloud</h3>
+                                <p class="margin-b-5">Data에 기반한 정확하고 시장 맞춤형 무인매장 솔루션을 통해 다양한 분야에서 안정된 매장 시스템을 갖췄습니다</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".6s">
+                        <div class="service" data-height="height">
+                            <div class="service-element">
+                                <i class="service-icon icon-badge"></i>
+                            </div>
+                            <div class="service-info">
+                                <h3>소비자 편의성</h3>
+                                <p class="margin-b-5">점주님들 뿐만 아니라 고객님들의 편의성을 생각한 서비스도 제공해드려요</p>
+                            </div>
+                            <a href="#" class="content-wrapper-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </div>
+</body>
+</html>
